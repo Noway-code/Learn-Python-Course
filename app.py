@@ -52,38 +52,42 @@ from math import *
 # ====================
 # Chapter 3: Working with Numbers
 # ====================
-print("Chapter 3: Working with Numbers")
-print(2)  # This is how to print a number
-print(2.0987)  # This is how to print a decimal number
-print(-2.0987)  # This is how to print a negative number
-print(3 + 4.5)  # This is how to add two numbers
-print(str(3 * 4 + 5) + " This is my favorite")  # This is how to convert a number to a string
-# print(3 * 4 + " This is my favorite")  # This does not work because you cannot concatenate a number with a string
-
-print(10 % 3)  # This is how to get the remainder of a division
-my_num = 5
-
-print(pow(3, 2))  # This is how to raise a number to a power
-print(max(4, 6))  # This is how to get the maximum of two numbers
-print(min(4, 6))  # This is how to get the minimum of two numbers
-print(round(3.50))  # Rounds up from 3.5 to 4
-print(round(3.49))  # Rounds down from 3.49 to 3
-
-# Using the math library
-print(floor(3.7))  # Always rounds down
-print(ceil(3.7))  # Always rounds up
-print(sqrt(36))  # This is how to get the square root of a number
+# print("Chapter 3: Working with Numbers")
+# print(2)  # This is how to print a number
+# print(2.0987)  # This is how to print a decimal number
+# print(-2.0987)  # This is how to print a negative number
+# print(3 + 4.5)  # This is how to add two numbers
+# print(str(3 * 4 + 5) + " This is my favorite")  # This is how to convert a number to a string
+# # print(3 * 4 + " This is my favorite")  # This does not work because you cannot concatenate a number with a string
+#
+# print(10 % 3)  # This is how to get the remainder of a division
+# my_num = 5
+#
+# print(pow(3, 2))  # This is how to raise a number to a power
+# print(max(4, 6))  # This is how to get the maximum of two numbers
+# print(min(4, 6))  # This is how to get the minimum of two numbers
+# print(round(3.50))  # Rounds up from 3.5 to 4
+# print(round(3.49))  # Rounds down from 3.49 to 3
+#
+# # Using the math library
+# print(floor(3.7))  # Always rounds down
+# print(ceil(3.7))  # Always rounds up
+# print(sqrt(36))  # This is how to get the square root of a number
 # ====================
 # Chapter 4: Getting Input from Users
 # ====================
-
+#
 # print("Chapter 4: Getting Input from Users")
+# stdin = input("Enter your name: ")
+# print("Hello " + stdin + "!")
+# print("You are " + stdin + " years old.")
+# stdin = input("Enter your age: ")
 
 # ====================
 # Chapter 5: Building a Basic Calculator
 # ====================
 
-# print("Chapter 5: Building a Basic Calculator")
+print("Chapter 5: Building a Basic Calculator")
 
 # ====================
 # Chapter 6: Mad Libs Game
