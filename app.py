@@ -1,7 +1,6 @@
 # External Imports
 from math import *
 
-
 # ====================
 # Chapter 1: Getting Started
 # ====================
