@@ -181,87 +181,177 @@ from math import *
 # print("Bottom")
 #
 
-
 # ====================
 # Chapter 11: Return Statement
 # ====================
+#
+# print("Chapter 11: Return Statement")
+#
+#
+# def cube(num):
+#     return num * num * num  # This is how to return a value from a function
+#
+#
+# result = cube(4)
+# print(result)
 
 # ====================
 # Chapter 12: If Statements
 # ====================
 
+print("Chapter 12: If Statements")
+
+boolTest = False
+
+if boolTest:
+    print("It is true")
+else:
+    print("It is false")
+
+boolTest = True
+
+if boolTest:
+    print("It is true")
+else:
+    print("It is false")
+
+is_male = True
+is_tall = True
+
+if is_male and not is_tall:  # and, or, not are the logical operators
+    print("You are a male or tall or both")
+else:
+    print("You are neither")
+
 # ====================
 # Chapter 13: If Statements & Comparisons
 # ====================
+
+# print("Chapter 13: If Statements & Comparisons")
 
 # ====================
 # Chapter 14: Building a better Calculator
 # ====================
 
+# print("Chapter 14: Building a better Calculator")
+
 # ====================
 # Chapter 15: Dictionaries
 # ====================
+
+# print("Chapter 15: Dictionaries")
 
 # ====================
 # Chapter 16: While Loop
 # ====================
 
+# print("Chapter 16: While Loop")
+
+
 # ====================
 # Chapter 17: Building a Guessing Game
 # ====================
+
+# print("Chapter 17: Building a Guessing Game")
+
 
 # ====================
 # Chapter 18: For Loop
 # ====================
 
+# print("Chapter 18: For Loop")
+
+
 # ====================
 # Chapter 19: Exponent Function
 # ====================
+
+# print("Chapter 19: Exponent Function")
+
 
 # ====================
 # Chapter 20: 2D Lists & Nested Loops
 # ====================
 
+# print("Chapter 20: 2D Lists & Nested Loops")
+
+
 # ====================
 # Chapter 21: Building a Translator
 # ====================
+
+# print("Chapter 21: Building a Translator")
+
 
 # ====================
 # Chapter 22: Comments
 # ====================
 
+# print("Chapter 22: Comments")
+
+
 # ====================
 # Chapter 23: Try/Except
 # ====================
+
+# print("Chapter 23: Try/Except")
+
 
 # ====================
 # Chapter 24: Reading Files
 # ====================
 
+# print("Chapter 24: Reading Files")
+
+
 # ====================
 # Chapter 25: Writing to Files
 # ====================
+
+# print("Chapter 25: Writing to Files")
+
 
 # ====================
 # Chapter 26: Modules & Pip
 # ====================
 
+# print("Chapter 26: Modules & Pip")
+
+
 # ====================
 # Chapter 27: Classes & Objects
 # ====================
+
+# print("Chapter 27: Classes & Objects")
 
 # ====================
 # Chapter 28: Building a Multiple Choice Quiz
 # ====================
 
+# print("Chapter 28: Building a Multiple Choice Quiz")
+
+
 # ====================
 # Chapter 29: Object Functions
 # ====================
+
+# print("Chapter 29: Object Functions")
+
 
 # ====================
 # Chapter 30: Inheritance
 # ====================
 
+# print("Chapter 30: Inheritance")
+
+
 # ====================
 # Chapter 31: Python Interpreter
 # ====================
+
+# print("Chapter 31: Python Interpreter")
+
+# ====================
+# The End of the Road
+# ====================
+
