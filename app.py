@@ -97,21 +97,56 @@ from math import *
 # ====================
 # Chapter 7: Lists
 # ====================
-
-print("Chapter 7: Lists")
-friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] # This is how to create a list
-print(friends)  # This is how to print a list
-print(friends[1:3])  # This is how to print a range of elements in a list
-friends[1] = "Mike"  # This is how to modify an element in a list
-print(friends[:])  # This prints infinite range of elements in a list
-print(friends[2:])  # This prints everything from the 3rd element to the end of the list
+#
+# print("Chapter 7: Lists")
+# friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]  # This is how to create a list
+# print(friends)  # This is how to print a list
+# print(friends[1:3])  # This is how to print a range of elements in a list
+# friends[1] = "Mike"  # This is how to modify an element in a list
+# print(friends[:])  # This prints infinite range of elements in a list
+# print(friends[2:])  # This prints everything from the 3rd element to the end of the list
 
 # ====================
 # Chapter 8: List Functions
 # ====================
 
-# print("Chapter 8: List Functions")
+print("Chapter 8: List Functions")
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.extend(lucky_numbers)  # This is how to add a list to another list (does not have to be the same type)
+friends.append("Creed")  # This is how to add an element to a list
+print(friends)
 
+friends.insert(1, "Kelly")  # This is how to insert an element at a specific index
+
+friends.remove("Jim")  # This is how to remove an element from a list
+print(friends)
+
+friends.clear()  # This is how to remove all elements from a list
+print(friends)
+
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+
+friends.pop()  # This is how to remove the last element from a list, stack ideology
+print(friends)
+
+# print(friends.index("d"))  # This is how to get the index of an element in a list
+print("Jim at: " + str(friends.index("Jim")))  # This is how to get the index of an element in a list
+friends.append("Jim")
+print(friends)  # This is how to get the index of an element in a list
+print(friends.count("Jim"))  # This is how to count the number of occurrences of an element in a list (non-existent element returns 0)
+
+friends.sort()  # This is how to sort a list
+print(friends)
+
+lucky_numbers.sort()  # This is how to sort a list
+print(lucky_numbers)
+
+lucky_numbers.reverse()  # This is how to reverse a list
+print(lucky_numbers)
+
+friends2 = friends.copy()  # This is how to copy a list
+print(friends2)
 # ====================
 # Chapter 9: Tuples
 # ====================
@@ -207,3 +242,6 @@ print(friends[2:])  # This prints everything from the 3rd element to the end of 
 # ====================
 # Chapter 31: Python Interpreter
 # ====================
+
+#%%
+
