@@ -151,21 +151,36 @@ from math import *
 # Chapter 9: Tuples
 # ====================
 
-print("Chapter 9: Tuples")
-
-coordinates = (4, 5)  # This is how to create a tuple
-print(coordinates[0])  # This is how to access an element in a tuple.
-# A tuple is a data structure that is used to store an ordered collection of items.
-# Tuples are immutable, you cannot change the elements in a tuple.
-coordinates = [(4, 5), (6, 7), (80, 34)]  # This is how to create a list of tuples
-# tuple vs list: Tuples are immutable, lists are mutable. Tuples are used to store related pieces of information.
-# pretty niche use case, but it is useful in some cases.
+# print("Chapter 9: Tuples")
+#
+# coordinates = (4, 5)  # This is how to create a tuple
+# print(coordinates[0])  # This is how to access an element in a tuple.
+# # A tuple is a data structure that is used to store an ordered collection of items.
+# # Tuples are immutable, you cannot change the elements in a tuple.
+# coordinates = [(4, 5), (6, 7), (80, 34)]  # This is how to create a list of tuples
+# # tuple vs list: Tuples are immutable, lists are mutable. Tuples are used to store related pieces of information.
+# # pretty niche use case, but it is useful in some cases.
 
 # ====================
 # Chapter 10: Functions
 # ====================
 
 # print("Chapter 10: Functions")
+#
+#
+# def say_hi(name, age): # def is the keyword to define a function
+#     print("Hello " + name + "!" + " You are " + str(age) + " years old.") # This is how to define a function
+#
+#
+# return not necessary in python, but it is useful in some cases to return a value from a function
+#
+# print("Top")
+# say_hi("Mike", 35)
+#
+# say_hi("Steve", 70)
+# print("Bottom")
+#
+
 
 # ====================
 # Chapter 11: Return Statement
@@ -250,6 +265,3 @@ coordinates = [(4, 5), (6, 7), (80, 34)]  # This is how to create a list of tupl
 # ====================
 # Chapter 31: Python Interpreter
 # ====================
-
-
-
