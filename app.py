@@ -87,7 +87,12 @@ from math import *
 # Chapter 5: Building a Basic Calculator
 # ====================
 
-print("Chapter 5: Building a Basic Calculator")
+# print("Chapter 5: Building a Basic Calculator")
+# num1 = input("Enter a number: ")
+# num2 = input("Enter another number: ")
+# result = float(num1) + float(num2)
+#
+# print(result)
 
 # ====================
 # Chapter 6: Mad Libs Game
