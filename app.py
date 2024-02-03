@@ -1,5 +1,4 @@
 # External Imports
-from math import *
 
 # ====================
 # Chapter 1: Getting Started
@@ -199,48 +198,114 @@ from math import *
 # Chapter 12: If Statements
 # ====================
 
-print("Chapter 12: If Statements")
-
-boolTest = False
-
-if boolTest:
-    print("It is true")
-else:
-    print("It is false")
-
-boolTest = True
-
-if boolTest:
-    print("It is true")
-else:
-    print("It is false")
-
-is_male = True
-is_tall = True
-
-if is_male and not is_tall:  # and, or, not are the logical operators
-    print("You are a male or tall or both")
-else:
-    print("You are neither")
+# print("Chapter 12: If Statements")
+#
+# boolTest = False
+#
+# if boolTest:
+#     print("It is true")
+# else:
+#     print("It is false")
+#
+# boolTest = True
+#
+# if boolTest:
+#     print("It is true")
+# else:
+#     print("It is false")
+#
+# is_male = True
+# is_tall = True
+#
+# if is_male and not is_tall:  # and, or, not are the logical operators
+#     print("You are a male or tall or both")
+# else:
+#     print("You are neither")
 
 # ====================
 # Chapter 13: If Statements & Comparisons
 # ====================
 
 # print("Chapter 13: If Statements & Comparisons")
+#
+#
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:  # This is how to compare numbers
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+#
+# print(max_num(3, 4, 5))
+#
+#
+# def max_num2(num1, num2, num3):
+#     if num1 == num2 and num1 == num3:  # This is how to compare numbers
+#         return "All numbers are equal"
+#     elif num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+#
+# print(max_num2(4, 3, 3))
+
 
 # ====================
 # Chapter 14: Building a better Calculator
 # ====================
 
 # print("Chapter 14: Building a better Calculator")
+#
+# num1 = float(input("Enter first number: "))
+# op = input("Enter operator: ")
+# num2 = float(input("Enter second number: "))
+# result = 0
+#
+# if op == "+":
+#     result = num1 + num2
+# elif op == "-":
+#     result = num1 - num2
+# elif op == "/":
+#     result = num1 / num2
+# elif op == "*":
+#     result = num1 * num2
+# else:
+#     result = "Invalid operator"
+#
+# print(result)
 
 # ====================
 # Chapter 15: Dictionaries
 # ====================
 
-# print("Chapter 15: Dictionaries")
+print("Chapter 15: Dictionaries")
 
+monthConversions = {  # This is how to create a dictionary (like a map in Java)
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December"
+}
+
+print(monthConversions["Nov"])  # This is how to get a value from a dictionary
+print(monthConversions.get("Dec"))  # This is how to get a value from a dictionary
+print(monthConversions.get("Luv", "Not a valid key"))  # This is how to get a default value for a non-existent key (Not a valid key)
+print(monthConversions.get("Luv"))  # This is how to get a default value for a non-existent key (None)
+
+# Dictionary keys are immutable, but the values can be anything.
 # ====================
 # Chapter 16: While Loop
 # ====================
@@ -354,4 +419,3 @@ else:
 # ====================
 # The End of the Road
 # ====================
-
