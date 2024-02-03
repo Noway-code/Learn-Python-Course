@@ -95,16 +95,16 @@ from math import *
 # print(result)
 
 # ====================
-# Chapter 6: Mad Libs Game
-# ====================
-
-# print("Chapter 6: Mad Libs Game")
-
-# ====================
 # Chapter 7: Lists
 # ====================
 
-# print("Chapter 7: Lists")
+print("Chapter 7: Lists")
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] # This is how to create a list
+print(friends)  # This is how to print a list
+print(friends[1:3])  # This is how to print a range of elements in a list
+friends[1] = "Mike"  # This is how to modify an element in a list
+print(friends[:])  # This prints infinite range of elements in a list
+print(friends[2:])  # This prints everything from the 3rd element to the end of the list
 
 # ====================
 # Chapter 8: List Functions
