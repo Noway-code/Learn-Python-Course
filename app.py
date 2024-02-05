@@ -617,15 +617,6 @@ from ChineseChef import ChineseChef
 # myChef.make_fried_rice()
 # myChef.make_chicken()
 # myChef.make_salad()
-#
-#
-#
-
-# ====================
-# Chapter 31: Python Interpreter
-# ====================
-
-# print("Chapter 31: Python Interpreter")
 
 # ====================
 # The End of the Road
