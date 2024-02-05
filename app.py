@@ -302,7 +302,7 @@
 #
 # print(monthConversions["Nov"])  # This is how to get a value from a dictionary
 # print(monthConversions.get("Dec"))  # This is how to get a value from a dictionary
-# print(monthConversions.get("Luv", "Not a valid key"))  # This is how to get a default value for a non-existent key (Not a valid key)
+# print(monthConversions.get("Love", "Not a valid key"))  # This is how to get a default value for a non-existent key (Not a valid key)
 # print(monthConversions.get("Luv"))  # This is how to get a default value for a non-existent key (None)
 
 # Dictionary keys are immutable, but the values can be anything.
@@ -347,7 +347,29 @@
 # ====================
 
 # print("Chapter 18: For Loop")
-
+#
+# for e in "Giraffe Academy":  # Like a for each loop in Java. python assumes you want to iterate over the string and stores that value in e
+#     print(e)
+# # python is smart enough to know how you want to over the object passed.
+# friends = ["Jim", "Karen", "Kevin"]
+# for friend in friends:
+#     print(friend)
+#
+# # Wow, this is weird.
+# for index in range(3, 10):
+#     print(index)
+#
+# for index in range(len(friends)):
+#     print(friends[index])  # printing ints always adds a new line
+#     print(index, end='\n\n')  # These are weird ways to print an extra new line
+#     print(str(index) + "\n")
+#
+# for index in range(5):
+#     if index == 0:
+#         print("First iteration")
+#     else:
+#         print("Not first")
+#
 
 # ====================
 # Chapter 19: Exponent Function
