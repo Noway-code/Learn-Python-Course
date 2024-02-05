@@ -376,14 +376,46 @@
 # ====================
 
 # print("Chapter 19: Exponent Function")
-
+#
+#
+# def raise_to_power(base_num, pow_num):
+#     result = 1
+#     for index in range(pow_num):
+#         result *= base_num
+#     return result
+#
+#
+# for i in range(1, 64):
+#     print(raise_to_power(2, i))
+#
+#
 
 # ====================
 # Chapter 20: 2D Lists & Nested Loops
 # ====================
 
-# print("Chapter 20: 2D Lists & Nested Loops")
+print("Chapter 20: 2D Lists & Nested Loops")
 
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+
+# number_grid = [
+#     [1, 2, 3], [4, 5, 6], [7, 8, 9],[0]
+# ]
+
+print(number_grid[0][0])  # This is how to access an element in a 2D list
+print(number_grid[2][1])  # This is how to access an element in a 2D list
+# basically, the first index is the row, the second index is the column
+
+for row in number_grid:
+    for col in row:
+        print(col)
+
+print(number_grid[3])
 
 # ====================
 # Chapter 21: Building a Translator
