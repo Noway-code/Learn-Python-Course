@@ -1,4 +1,7 @@
 # External Imports
+import math
+from Question import Question
+from ChineseChef import ChineseChef
 
 # ====================
 # Chapter 1: Getting Started
@@ -487,6 +490,14 @@
 # ====================
 
 # print("Chapter 26: Modules & Pip")
+#
+# # import useful_tools  # This is how to import a module
+#
+# # print(useful_tools.roll_dice(10))  # This is how to use a function from a module
+# print(math.log(10))
+# # you can find a list of python modules at https://docs.python.org/3/py-modindex.html
+# # you can also install third party modules using pip (python package manager)
+# # there are built-in modules, and third party modules that you can install using pip
 
 
 # ====================
@@ -494,27 +505,121 @@
 # ====================
 
 # print("Chapter 27: Classes & Objects")
+#
+#
+# class Student:  # This is how to create a class
+#     def __init__(self, name, major, gpa, is_on_probation):  # This is how to create a constructor
+#         self.name = name  # This is how to create an instance variable
+#         self.major = major
+#         self.gpa = gpa
+#         self.is_on_probation = is_on_probation
+#
+#     # self is a reference to the current instance of the class (like this in Java) and is used to access variables that belong to the class
+#     # __init__ is a special function that is called when you create an object of a class (like a constructor in Java)
+#     # You can also create functions in a class (like methods in Java) that can be called from an object of the class
+#     # You can also create a function that returns a value (like a getter in Java) that can be called from an object of the class
+#     # python does not have private variables, but you can use a single underscore to indicate that a variable is private\
+#     # python is an object-oriented language, and everything in python is an object (like Java)
+#     def on_honor_roll(self):
+#         if self.gpa >= 3.5:
+#             return True
+#         else:
+#             return False
+#
+#     def __str__(self):
+#         return "Name: " + self.name + ", Major: " + self.major + ", GPA: " + str(self.gpa) + ", On Probation: " + str(
+#             self.is_on_probation)
+#
+#
+# student1 = Student("Jim", "Business", 3.1, False)  # This is how to create an object
+# student2 = Student("Pam", "Art", 2.5, True)  # This is how to create an object
+#
+# print(student1.name)  # This is how to access an instance variable
+# print(student2.name)  # This is how to access an instance variable
+# print(student1.on_honor_roll())  # This is how to call a function from an object
+# print(student2.on_honor_roll())  # This is how to call a function from an object
+# print(student1)  # This is how to print an object
+# print(student2)  # This is how to print an object
 
 # ====================
 # Chapter 28: Building a Multiple Choice Quiz
 # ====================
-
+#
 # print("Chapter 28: Building a Multiple Choice Quiz")
-
+#
+# question_prompts = [
+#     "What color are apples?\n(a) Red/Green\n(b) Purple\n(c) Orange\n\n",
+#     "What color are bananas?\n(a) Teal\n(b) Magenta\n(c) Yellow\n\n",
+#     "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
+# ]
+#
+# questions = [
+#     Question(question_prompts[0], "a"),
+#     Question(question_prompts[1], "c"),
+#     Question(question_prompts[2], "b")
+# ]
+#
+#
+# def run_test(questions):
+#     score = 0
+#     for question in questions:
+#         answer = input(question.prompt)
+#         if answer == question.answer:
+#             score += 1
+#     print("You got " + str(score) + "/" + str(len(questions)) + " correct")
+#
+#
+# run_test(questions)
 
 # ====================
 # Chapter 29: Object Functions
 # ====================
 
 # print("Chapter 29: Object Functions")
-
+#
+#
+# class Student:  # This is how to create a class
+#     def __init__(self, name, major, gpa, is_on_probation):  # This is how to create a constructor
+#         self.name = name  # This is how to create an instance variable
+#         self.major = major
+#         self.gpa = gpa
+#         self.is_on_probation = is_on_probation
+#
+#     # self is a reference to the current instance of the class (like this in Java) and is used to access variables that belong to the class
+#     # __init__ is a special function that is called when you create an object of a class (like a constructor in Java)
+#     # You can also create functions in a class (like methods in Java) that can be called from an object of the class
+#     # You can also create a function that returns a value (like a getter in Java) that can be called from an object of the class
+#     # python does not have private variables, but you can use a single underscore to indicate that a variable is private\
+#     # python is an object-oriented language, and everything in python is an object (like Java)
+#     def on_honor_roll(self):
+#         if self.gpa >= 3.5:
+#             return True
+#         else:
+#             return False
+#
+#
+# student1 = Student("Jim", "Business", 3.1, False)  # This is how to create an object
+# student2 = Student("Pam", "Art", 2.5, True)  # This is how to create an object
+#
+# print(student1.name)  # This is how to access an instance variable
+# print(student2.name)  # This is how to access an instance variable
+# print(student1.on_honor_roll())  # This is how to call a function from an object
+# print(student2.on_honor_roll())  # This is how to call a function from an object
 
 # ====================
 # Chapter 30: Inheritance
 # ====================
-
+#
 # print("Chapter 30: Inheritance")
-
+#
+# myChef = ChineseChef()
+# myChef.make_special_dish()
+# myChef.make_fried_rice()
+# myChef.make_chicken()
+# myChef.make_salad()
+#
+#
+#
 
 # ====================
 # Chapter 31: Python Interpreter
