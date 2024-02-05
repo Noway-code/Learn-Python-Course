@@ -394,63 +394,93 @@
 # Chapter 20: 2D Lists & Nested Loops
 # ====================
 
-print("Chapter 20: 2D Lists & Nested Loops")
-
-number_grid = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [0]
-]
-
+# print("Chapter 20: 2D Lists & Nested Loops")
+#
 # number_grid = [
-#     [1, 2, 3], [4, 5, 6], [7, 8, 9],[0]
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9],
+#     [0]
 # ]
-
-print(number_grid[0][0])  # This is how to access an element in a 2D list
-print(number_grid[2][1])  # This is how to access an element in a 2D list
-# basically, the first index is the row, the second index is the column
-
-for row in number_grid:
-    for col in row:
-        print(col)
-
-print(number_grid[3])
+#
+# # number_grid = [
+# #     [1, 2, 3], [4, 5, 6], [7, 8, 9],[0]
+# # ]
+#
+# print(number_grid[0][0])  # This is how to access an element in a 2D list
+# print(number_grid[2][1])  # This is how to access an element in a 2D list
+# # basically, the first index is the row, the second index is the column
+#
+# for row in number_grid:
+#     for col in row:
+#         print(col)
+#
+# print(number_grid[3])
 
 # ====================
 # Chapter 21: Building a Translator
 # ====================
 
 # print("Chapter 21: Building a Translator")
-
-
-# ====================
-# Chapter 22: Comments
-# ====================
-
-# print("Chapter 22: Comments")
-
-
+#
+#
+# def translate(phrase):
+#     translation = ""
+#     for letter in phrase:
+#         if letter.lower() in "aeiou":
+#             if letter.isupper():
+#                 translation += "G"
+#             else:
+#                 translation += "g"
+#         else:
+#             translation += letter
+#     return translation
+#
+#
+# print(translate(input("Enter a phrase: ")))
+#
+#
 # ====================
 # Chapter 23: Try/Except
 # ====================
 
 # print("Chapter 23: Try/Except")
-
+#
+# try:
+#     value = 10 / 0
+#     number = int(input("Enter a number: "))
+#     print(number)
+# except ZeroDivisionError as err:
+#     print(err)
+# except ValueError:
+#     print("Invalid input")
 
 # ====================
 # Chapter 24: Reading Files
 # ====================
 
 # print("Chapter 24: Reading Files")
-
+#
+# employeeFile = open("employees.txt", "r")  # Accepts two arguments, the file name and the mode (r, w, a, r+)
+# # r = read, w = write, a = append, r+ = read and write
+#
+# print(employeeFile.readable())  # This is how to check if a file is readable
+# # print(employeeFile.read())  # This is how to read a file, all subsequent reads will return an empty string
+# # print(employeeFile.readline())  # This is how to read a line from a file, if you call it again, it will read the next line
+# print(employeeFile.readlines())  # This is how to read all lines from a file
 
 # ====================
 # Chapter 25: Writing to Files
 # ====================
 
 # print("Chapter 25: Writing to Files")
-
+#
+# # employeeFile = open("employees.txt", "a")  # Accepts two arguments, the file name and the mode (r, w, a, r+). a = append
+# employeeFile = open("index.html", "w")  # overwrites the file if it exists, creates a new file if it does not exist
+#
+# employeeFile.write("<p> Hello world </p>")  # This is how to write to a file
+#
+# employeeFile.close()  # This is how to close a file
 
 # ====================
 # Chapter 26: Modules & Pip
