@@ -283,27 +283,27 @@
 # Chapter 15: Dictionaries
 # ====================
 
-print("Chapter 15: Dictionaries")
-
-monthConversions = {  # This is how to create a dictionary (like a map in Java)
-    "Jan": "January",
-    "Feb": "February",
-    "Mar": "March",
-    "Apr": "April",
-    "May": "May",
-    "Jun": "June",
-    "Jul": "July",
-    "Aug": "August",
-    "Sep": "September",
-    "Oct": "October",
-    "Nov": "November",
-    "Dec": "December"
-}
-
-print(monthConversions["Nov"])  # This is how to get a value from a dictionary
-print(monthConversions.get("Dec"))  # This is how to get a value from a dictionary
-print(monthConversions.get("Luv", "Not a valid key"))  # This is how to get a default value for a non-existent key (Not a valid key)
-print(monthConversions.get("Luv"))  # This is how to get a default value for a non-existent key (None)
+# print("Chapter 15: Dictionaries")
+#
+# monthConversions = {  # This is how to create a dictionary (like a map in Java)
+#     "Jan": "January",
+#     "Feb": "February",
+#     "Mar": "March",
+#     "Apr": "April",
+#     "May": "May",
+#     "Jun": "June",
+#     "Jul": "July",
+#     "Aug": "August",
+#     "Sep": "September",
+#     "Oct": "October",
+#     "Nov": "November",
+#     "Dec": "December"
+# }
+#
+# print(monthConversions["Nov"])  # This is how to get a value from a dictionary
+# print(monthConversions.get("Dec"))  # This is how to get a value from a dictionary
+# print(monthConversions.get("Luv", "Not a valid key"))  # This is how to get a default value for a non-existent key (Not a valid key)
+# print(monthConversions.get("Luv"))  # This is how to get a default value for a non-existent key (None)
 
 # Dictionary keys are immutable, but the values can be anything.
 # ====================
@@ -311,15 +311,37 @@ print(monthConversions.get("Luv"))  # This is how to get a default value for a n
 # ====================
 
 # print("Chapter 16: While Loop")
-
-
+#
+# i = 1
+# while i <= 100:  # This is how to create a while loop
+#     print(i)
+#     i += 1  # This is how to increment a variable
+#
+# print("Done with loop")
 # ====================
 # Chapter 17: Building a Guessing Game
 # ====================
 
 # print("Chapter 17: Building a Guessing Game")
-
-
+#
+# secret_word = "giraffe"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
+#
+# while guess != secret_word and not out_of_guesses:  # This is how to create a while loop
+#     if guess_count < guess_limit:
+#         guess = input("Enter guess: ")
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
+#
+# if out_of_guesses:
+#     print("Out of guesses, you lose!")
+# else:
+#     print("You win!")
+#
 # ====================
 # Chapter 18: For Loop
 # ====================
