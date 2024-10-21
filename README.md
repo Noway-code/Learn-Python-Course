@@ -1,4 +1,5 @@
 # Learning Python for Hacklytics
+This is now a testing grounds for my Ladybug project
 
 Following the chapters via app.py and commits. This is to prep myself quickly on basic syntax before delving into data science and AI/ML.
 
